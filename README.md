@@ -15,7 +15,7 @@ _Note: This is being made available early as a preview for reporters at NPR memb
 
 `white_popu`: White population of the Census tract as of 2017
 
-`_median`: The median raster pixel heat value for the Census tract. Note this is __surface temperature__, not ambient temperature. Sometimes scaled 0 => 255, sometimes scaled with higher numbers. There is a way to convert these to Farenheit, but that is not something we pursued.
+`_median`: The median raster pixel heat value for the Census tract in degrees kelvin. Note this is __surface temperature__, not ambient temperature.
 
 
 ## Simplified files
