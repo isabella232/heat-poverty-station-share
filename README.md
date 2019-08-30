@@ -21,3 +21,12 @@ _Note: This is being made available early as a preview for reporters at NPR memb
 ## Simplified files
 
 Also in the `geojsons` folder is a folder called `simpl`. This has city .geojsons with simplified polygons for mapping on the web. These are used in NPR's web maps.
+
+
+## Caveats
+- There is a difference between poverty vs. low-income
+- More detailed Census geography = larger MOE
+- We're using surface temperature, not ambient temperature
+- Only one day of data per city
+- Not every city is counted
+- Some cities split satellite scene paths/rows, so we took the image from the scene that contained most of the city. You'll need to filter out tracts without heat data in any data analysis/mapping you do.
